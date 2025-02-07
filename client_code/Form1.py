@@ -22,4 +22,5 @@ class Form1(Form1Template):
 
   def button_1_click(self, **event_args):
     data = anvil.server.call('get_data', 'key')
+    print(type(data))
     alert('The value read from the table is: {}'.format(data))
