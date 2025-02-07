@@ -1,0 +1,13 @@
+allow_embedding: false
+correct_dependency_ids: {}
+dependencies: []
+metadata: {}
+name: Clone of Json upload example
+package_name: Json_upload_example
+renamed: true
+runtime_options: {server_spec: null, server_version: python2-sandbox, version: 1}
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
+startup_form: Form1
