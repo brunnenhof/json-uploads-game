@@ -5,7 +5,7 @@ metadata: {}
 name: Clone of Json upload example
 package_name: Json_upload_example
 renamed: true
-runtime_options: {server_spec: null, server_version: python2-sandbox, version: 1}
+runtime_options: {client_version: '2', server_spec: null, server_version: python2-sandbox, version: 2}
 services:
 - client_config: {}
   server_config: {}
