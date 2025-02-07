@@ -1,11 +1,23 @@
 allow_embedding: false
 correct_dependency_ids: {}
+db_schema:
+  mytable:
+    client: none
+    columns:
+    - admin_ui: {width: 200}
+      name: key
+      type: string
+    - admin_ui: {width: 200}
+      name: value
+      type: simpleObject
+    server: full
+    title: MyTable
 dependencies: []
 metadata: {}
 name: Clone of Json upload example
 package_name: Json_upload_example
 renamed: true
-runtime_options: {client_version: '2', server_spec: null, server_version: python2-sandbox, version: 2}
+runtime_options: {client_version: '2', server_spec: null, server_version: python2-full, version: 2}
 services:
 - client_config: {}
   server_config: {}
