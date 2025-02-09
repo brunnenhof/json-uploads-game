@@ -29,9 +29,18 @@ components:
       visible: true
     type: FileLoader
   - event_bindings: {click: button_1_click}
-    layout_properties: {grid_position: 'GWVDSJ,TNSJIT'}
+    layout_properties: {grid_position: 'WTYIIQ,BATMGB'}
     name: button_1
     properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: null, foreground: '', icon: '', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: Load from table, tooltip: '', underline: false, visible: true}
+    type: Button
+  - event_bindings: {change: upload_sdg_var_change}
+    layout_properties: {grid_position: 'UOUGXE,DSEKKW'}
+    name: upload_sdg_var
+    properties: {foreground: 'theme:Secondary 500', text: Upload sdg_VAR to table}
+    type: FileLoader
+  - layout_properties: {grid_position: 'UOUGXE,BOMZXK'}
+    name: btn_load_sdg_var
+    properties: {foreground: 'theme:Secondary 500', text: Load SDG_VAR}
     type: Button
   layout_properties: {slot: default}
   name: content_panel

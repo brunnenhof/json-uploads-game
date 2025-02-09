@@ -5,14 +5,13 @@ color_scheme:
   - {color: '#FF9800', name: Secondary 500}
   - {color: '#F57C00', name: Secondary 700}
   - {color: '#FFFFFF', name: White}
-  - {color: '#FAFAFA', name: Gray 50}
-  - {color: '#F5F5F5', name: Gray 100}
-  - {color: '#EEEEEE', name: Gray 200}
-  - {color: '#E0E0E0', name: Gray 300}
-  - {color: '#757575', name: Gray 600}
-  - {color: '#424242', name: Gray 800}
-  - {color: '#212121', name: Gray 900}
   - {color: '#000000', name: Black}
+  - {color: '#014873', name: bw blue dark}
+  - {color: '#056588', name: bw blue medium}
+  - {color: '#0383A1', name: bw blue light}
+  - {color: '#666666', name: bw grey dark}
+  - {color: '#959595', name: bw grey medium}
+  - {color: '#E2E2E2', name: bw grey light}
   preset_groups:
   - name: Primary Colour
     options:

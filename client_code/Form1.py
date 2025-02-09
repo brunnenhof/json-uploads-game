@@ -24,3 +24,9 @@ class Form1(Form1Template):
     data = anvil.server.call('get_data', 'key')
     print(type(data))
     alert('The value read from the table is: {}'.format(data))
+
+  def upload_sdg_var_change(self, file, **event_args):
+    text = file.get_bytes()
+    data = json.loads(text)
+    anvil.server.call('upload_sdg_var_change', data)
+    alert('The file has been uploaded and saved to table')
