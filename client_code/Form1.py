@@ -6,6 +6,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 import json
 
+
 class Form1(Form1Template):
 
   def __init__(self, **properties):
@@ -27,6 +28,8 @@ class Form1(Form1Template):
 
   def upload_sdg_var_change(self, file, **event_args):
     text = file.get_bytes()
-    data = json.loads(text)
-    anvil.server.call('upload_sdg_var_change', data)
+    print(type(text))
+    tsplit = text.splitlines(keepends=False)
+    print(type(tsplit))
+    anvil.server.call('upload_sdg_var_change', tsplit)
     alert('The file has been uploaded and saved to table')

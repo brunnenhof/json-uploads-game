@@ -27,9 +27,6 @@ db_schema:
     - admin_ui: {order: 3, width: 200}
       name: indicator
       type: string
-    - admin_ui: {order: 4, width: 200}
-      name: vensim_name
-      type: number
     - admin_ui: {order: 5, width: 200}
       name: green
       type: number
@@ -54,6 +51,9 @@ db_schema:
     - admin_ui: {order: 12, width: 200}
       name: pct
       type: number
+    - admin_ui: {order: 13, width: 200}
+      name: vensim_name
+      type: string
     server: full
     title: sdg_vars
 dependencies: []
@@ -63,7 +63,7 @@ package_name: Json_upload_example
 renamed: true
 runtime_options:
   client_version: '2'
-  server_spec: {base: python310-minimal}
+  server_spec: {base: python310-standard}
   server_version: python2-full
   version: 2
 services:
