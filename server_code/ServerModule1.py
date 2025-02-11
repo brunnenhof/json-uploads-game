@@ -34,6 +34,7 @@ def get_data(key):
 
 @anvil.server.callable
 def upload_sdg_var_change(data):
+  app_tables.sdg_vars.delete_all_rows()
   l = len(data)
   for i in range(1, l):
     d = data[i]
